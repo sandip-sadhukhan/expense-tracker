@@ -50,21 +50,19 @@ export default function Home() {
           <div className="flex flex-col space-y-2">
             <div className="flex flex-col space-y-1">
               <p className="text-sm font-medium">Text</p>
-              <input type="text" className="w-full bg-white border-1 border-gray-300 px-2 py-1.5 text-sm rounded-sm font-medium" placeholder="Enter text..." />
+              <input type="text" className="w-full bg-white border-1 border-gray-300 px-2 py-1.5 text-sm rounded-sm font-medium" placeholder="Enter text..." autoFocus />
             </div>
             <div className="flex flex-col space-y-1">
               <p className="text-sm font-medium">
                 Amount<br />
                 (negative - expense, positive - income)
               </p>
-              <input type="text" className="w-full bg-white border-1 border-gray-300 px-2 py-1.5 text-sm rounded-sm font-medium" placeholder="Enter amount..." />
+              <input type="number" step="0.01" className="w-full bg-white border-1 border-gray-300 px-2 py-1.5 text-sm rounded-sm font-medium" placeholder="Enter amount..." />
             </div>
 
-            <button className="bg-indigo-500 hover:bg-indigo-600 transition-all duration-200 cursor-pointer w-full text-white font-medium text-sm py-1.5 px-1 rounded-sm shadow-sm">Add transaction</button>
+            <button className="bg-indigo-500 hover:bg-indigo-600 transition-all duration-200 cursor-pointer w-full text-white font-medium text-sm py-2 px-1 rounded-sm shadow-sm">Add transaction</button>
           </div>
         </div>
-
-
       </div>
     </main>
   );
