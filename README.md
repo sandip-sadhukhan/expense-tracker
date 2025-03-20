@@ -10,6 +10,7 @@ A simple expense tracker website where we can track our expense and income.
 1. Total Income and Expenses
 
 ## Tech Stack
+- ReactJS
 - NextJS
 - Tailwind CSS
 - Django
